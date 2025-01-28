@@ -1,12 +1,13 @@
 package com.example.springtrainingproject2
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.animation.AnimationUtils
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,10 +25,10 @@ class MainActivity : AppCompatActivity() {
         logo.startAnimation(scaleInLogo)
         appName.startAnimation(scaleInName)
 
-        val btnContinue: Button = findViewById(R.id.continue_button)
-        btnContinue.setOnClickListener {
+        Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
-        }
+            finish()
+        }, 4000)
     }
-}
+    }

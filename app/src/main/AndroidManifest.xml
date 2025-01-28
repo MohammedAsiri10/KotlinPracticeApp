@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SpringTrainingProject2"
         tools:targetApi="31">
-        <activity
-            android:name=".FirstActivity"
-            android:exported="false" />
+
         <activity
             android:name=".SecondActivity"
             android:exported="false" />
