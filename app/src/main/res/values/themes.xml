@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.SpringTrainingProject2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@color/light_blue</item>
+        <item name="android:windowSplashScreenBackground">@color/light_blue</item>
+
     </style>
 
     <style name="Theme.SpringTrainingProject2" parent="Base.Theme.SpringTrainingProject2" />

@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#8CC63F</color>
-    <color name="light_blue">#ADD8E6</color>
+    <color name="light_blue">#D6ECE6</color>
     <color name="dark_blue">#1C2FA6</color>
+    <color name="activeIndicator">#4CAF50</color> <!-- Green for active -->
+    <color name="inactiveIndicator">#B0BEC5</color> <!-- Gray for inactive -->
 </resources>
