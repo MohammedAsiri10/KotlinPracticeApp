@@ -27,6 +27,7 @@
         </activity>
         <activity android:name=".FeatureActivity" />
         <activity android:name=".ImageSliderActivity" />
+        <activity android:name=".DraggableListActivity"/>
     </application>
 
 </manifest>

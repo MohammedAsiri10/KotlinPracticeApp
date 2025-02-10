@@ -11,26 +11,33 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        // list of buttons
         val buttonList = listOf(
             ButtonItem("Image Slider"),
-            ButtonItem("Feature 2"),
+            ButtonItem("Draggable List"),
             ButtonItem("Feature 3"),
             ButtonItem("Feature 4"),
             ButtonItem("Feature 5")
         )
 
-        // Initialize RecyclerView
+
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
+
         recyclerView.adapter = ButtonAdapter(buttonList) { feature ->
-            val intent = if (feature == "Image Slider") {
-                Intent(this, ImageSliderActivity::class.java)
-            } else {
-                Intent(this, FeatureActivity::class.java)
+            val intent = when (feature) {
+                "Draggable List" -> {
+                    Intent(this, DraggableListActivity::class.java)
+                }
+                "Image Slider" -> {
+                    Intent(this, ImageSliderActivity::class.java)
+                }
+                else -> {
+                    Intent(this, FeatureActivity::class.java)
+                }
             }
             intent.putExtra("feature_name", feature)
             startActivity(intent)
         }
+
     }
 }
