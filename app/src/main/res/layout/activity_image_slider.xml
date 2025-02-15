@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ImageSliderActivity">
 
-    <!-- Switch for auto-slide -->
     <Switch
         android:id="@+id/switchAutoSlide"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="Auto Slide"
+        android:text="@string/AutoSlideSwitch"
+        android:textColor="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp"

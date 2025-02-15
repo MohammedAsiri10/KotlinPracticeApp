@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ساينفاي </string>
+    <string name="app_logo">لوقو التطبيق</string>
+    <string name="continue_button">متابعة</string>
+    <string name="welcome">مرحبا بك الى التطبيق</string>
+    <string name="Selected">لقد اخترت :  %1$s </string>
+    <string name="ImageSliderButton">متصفح الصور</string>
+    <string name="DraggableListButton">قائمة قابلة للسحب</string>
+    <string name="Feature3">الخاصية 3</string>
+    <string name="Feature4">الخاصية 4</string>
+    <string name="Feature5">الخاصية 5</string>
+    <string name="LanguageChange">تغيير اللغة</string>
+    <string name="AutoSlideSwitch">التصفح التلقائي</string>
+</resources>

@@ -3,5 +3,12 @@
     <string name="app_logo">App logo</string>
     <string name="continue_button">Continue</string>
     <string name="welcome">Welcome to our application</string>
-    <string name="Selected">You selected:</string>
+    <string name="Selected">You selected:  %1$s</string>
+    <string name="ImageSliderButton">Image Slider</string>
+    <string name="DraggableListButton">Draggable List</string>
+    <string name="Feature3">Feature 3</string>
+    <string name="Feature4">Feature 4</string>
+    <string name="Feature5">Feature 5</string>
+    <string name="LanguageChange">Change Language</string>
+    <string name="AutoSlideSwitch">Auto Slide</string>
 </resources>

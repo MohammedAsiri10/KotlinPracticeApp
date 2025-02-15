@@ -14,6 +14,7 @@ class FeatureActivity : AppCompatActivity() {
 
         // Set the text to display the clicked button name
         val textView = findViewById<TextView>(R.id.textView)
-        textView.text = "You selected: ${featureName ?: "Unknown"}"
+        val selectedMessage = getString(R.string.Selected, featureName ?: "Unknown")
+        textView.text = selectedMessage
     }
 }
