@@ -11,4 +11,6 @@
     <string name="Feature5">Feature 5</string>
     <string name="LanguageChange">Change Language</string>
     <string name="AutoSlideSwitch">Auto Slide</string>
+    <string name="EnterDomainKey">Enter Domain Keyword</string>
+    <string name="EnterDomainZone">Enter Domain Zone</string>
 </resources>

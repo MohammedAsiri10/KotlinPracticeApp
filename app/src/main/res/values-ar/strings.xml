@@ -12,4 +12,6 @@
     <string name="Feature5">الخاصية 5</string>
     <string name="LanguageChange">تغيير اللغة</string>
     <string name="AutoSlideSwitch">التصفح التلقائي</string>
+    <string name="EnterDomainKey">ادخل رمز النطاق</string>
+    <string name="EnterDomainZone">ادخل منطقة المجال</string>
 </resources>

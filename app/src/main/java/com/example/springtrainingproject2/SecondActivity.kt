@@ -15,7 +15,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
         val imageSliderButton = getString(R.string.ImageSliderButton)
         val draggableListButton = getString(R.string.DraggableListButton)
-        val SearchDomains = getString(R.string.SearchDomains)
+        val searchdomains = getString(R.string.SearchDomains)
         val feature4 = getString(R.string.Feature4)
         val feature5 = getString(R.string.Feature5)
         val languageSwitch = findViewById<Switch>(R.id.languageSwitch)
@@ -23,7 +23,7 @@ class SecondActivity : AppCompatActivity() {
         val buttonList = listOf(
             ButtonItem(imageSliderButton),
             ButtonItem(draggableListButton),
-            ButtonItem(SearchDomains),
+            ButtonItem(searchdomains),
             ButtonItem(feature4),
             ButtonItem(feature5)
         )
@@ -40,7 +40,7 @@ class SecondActivity : AppCompatActivity() {
                 imageSliderButton -> {
                     Intent(this, ImageSliderActivity::class.java)
                 }
-                SearchDomains -> {
+                searchdomains -> {
                     Intent(this, SearchDomainsActivity::class.java)
                 }
                 else -> {
